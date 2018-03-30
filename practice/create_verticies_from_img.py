@@ -5,7 +5,7 @@ sys.path.append("/usr/local/lib/python3.6/site-packages/")
 
 import cv2
 
-imgPath = "/Users/takk/BlenderPython/img/kamon/mouri-motonari-kamon.png"
+imgPath = "/yourFolder/BlenderPython/img/kamon/mouri-motonari-kamon.png"
 
 im = cv2.imread(imgPath,0)
 thresh = cv2.Canny(im, 100, 200)
